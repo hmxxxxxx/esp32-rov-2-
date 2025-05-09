@@ -1,0 +1,15 @@
+idf_component_register(
+    SRC_DIRS "."
+    "MPU6050"
+    "DCMOTOR"
+   "PCA9685"
+   "MS5837"
+   "CONTROL"
+    INCLUDE_DIRS "."
+    "MPU6050"
+    "DCMOTOR"
+    "PCA9685"
+    "MS5837"
+    "CONTROL"
+    PRIV_REQUIRES driver
+                          )
